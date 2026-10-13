@@ -1,0 +1,122 @@
+/*Definição de fonte via arquivo baixado*/
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf")
+    format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Reset da página geral da margin e padding*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilo Desktop*/
+body{
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+
+
+header{
+    display: block;
+    margin: 75px 0 0 360px;
+}
+
+h1{
+    font-size: 64px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 60px auto 24px;
+}
+
+h1 span{
+    color: #9747FF;
+}
+
+p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: block;
+    width: 792px;
+    margin: 24px auto 0;
+}
+
+a{
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    line-height: 66px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    /*padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 48px;
+    padding-left: 48px;*/
+    border-radius: 36px;
+}
+
+a:hover{
+    background-color: #8233E8
+}
+
+section img{
+    display: block;
+    margin: 40px auto 87px;
+}
+
+
+@media(max-width: 768px){
+
+    header{
+    margin:65px 0 0 60px;
+}
+p{
+    width: 648px;
+}
+}
+
+@media(max-width: 375px){
+    header{
+        margin: 32px 0 0 16px;
+    }
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    width: 340px;
+}
+a{
+    font-size: 20px;
+    width: 251px;
+}
+section img{
+    width: 340px;
+    height: 230px;
+}
+
+}
+
+/*Primeira forma de adicionar estilo à várias tegs
+h1, p, a{
+    color: #FFFFFF;
+}
+
+/*Forma de declarar classe e adicionar na tag do html
+.cor-branco{
+    color: #FFFFFF;
+}*/
